@@ -8,11 +8,11 @@
 	Author URI: https://plugin-planet.com/
 	Contributors: specialk, aldolat, WpBlogHost, jameswilkes, juliobox, lernerconsult
 	Donate link: https://monzillamedia.com/donate.html
-	Requires at least: 4.6
-	Tested up to: 6.7
-	Stable tag: 20241104
-	Version:    20241104
-	Requires PHP: 5.6.20
+	Requires at least: 4.7
+	Tested up to: 6.8
+	Stable tag: 20250324
+	Version:    20250324
+	Requires PHP: 7.1
 	Text Domain: block-bad-queries
 	Domain Path: /languages
 	License: GPLv2 or later
@@ -32,12 +32,12 @@
 	You should have received a copy of the GNU General Public License
 	with this program. If not, visit: https://www.gnu.org/licenses/
 	
-	Copyright 2024 Monzilla Media. All rights reserved.
+	Copyright 2025 Monzilla Media. All rights reserved.
 */
 
 if (!defined('ABSPATH')) die();
 
-if (!defined('BBQ_VERSION'))   define('BBQ_VERSION', '20241104');
+if (!defined('BBQ_VERSION'))   define('BBQ_VERSION', '20250324');
 if (!defined('BBQ_FILE'))      define('BBQ_FILE', __FILE__);
 if (!defined('BBQ_BASE_FILE')) define('BBQ_BASE_FILE', plugin_basename(__FILE__));
 if (!defined('BBQ_DIR'))       define('BBQ_DIR', plugin_dir_path(__FILE__));
