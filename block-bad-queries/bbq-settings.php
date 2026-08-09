@@ -354,12 +354,12 @@ function bbq_admin_notice() {
 			
 			<div class="notice notice-success notice-lh">
 				<p>
-					<strong><?php esc_html_e('🌼 Spring Sale!', 'block-bad-queries'); ?></strong> 
-					<?php esc_html_e('Take 30% OFF any of our', 'block-bad-queries'); ?> 
+					<strong><?php esc_html_e('☀️ Summer Sale!', 'block-bad-queries'); ?></strong> 
+					<?php esc_html_e('Take 35% OFF any of our', 'block-bad-queries'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://plugin-planet.com/"><?php esc_html_e('Pro WordPress plugins', 'block-bad-queries'); ?></a> 
 					<?php esc_html_e('and', 'block-bad-queries'); ?> 
 					<a target="_blank" rel="noopener noreferrer" href="https://books.perishablepress.com/"><?php esc_html_e('books', 'block-bad-queries'); ?></a>. 
-					<?php esc_html_e('Apply code', 'block-bad-queries'); ?> <code>SPRING30</code> <?php esc_html_e('at checkout. Sale ends 6/28/2026.', 'block-bad-queries'); ?> 
+					<?php esc_html_e('Apply code', 'block-bad-queries'); ?> <code>SUMMER</code> <?php esc_html_e('at checkout. Sale ends 9/20/2026.', 'block-bad-queries'); ?> 
 					<?php echo bbq_dismiss_notice_button(); ?>
 				</p>
 			</div>
@@ -440,7 +440,7 @@ function bbq_dismiss_notice_button() {
 
 function bbq_check_date_expired() {
 	
-	$expires = apply_filters('bbq_check_date_expired', '2026-06-28');
+	$expires = apply_filters('bbq_check_date_expired', '2026-09-20');
 	
 	return (new DateTime() > new DateTime($expires)) ? true : false;
 	

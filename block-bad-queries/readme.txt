@@ -1,4 +1,4 @@
-=== BBQ Firewall – Fast & Powerful Firewall Security ===
+=== BBQ Firewall - Fast & Powerful Firewall Security ===
 
 Plugin Name: BBQ Firewall
 Plugin URI: https://perishablepress.com/block-bad-queries/
@@ -9,9 +9,9 @@ Author URI: https://plugin-planet.com/
 Contributors: specialk, aldolat, WpBlogHost, jameswilkes, juliobox, lernerconsult
 Donate link: https://monzillamedia.com/donate.html
 Requires at least: 4.7
-Tested up to: 7.0
-Stable tag: 20260419
-Version:    20260419
+Tested up to: 7.1
+Stable tag: 20260809
+Version:    20260809
 Requires PHP: 5.6.20
 Text Domain: block-bad-queries
 Domain Path: /languages
@@ -271,9 +271,13 @@ If you like BBQ, please take a moment to [give a 5-star rating](https://wordpres
 > 🔥 For stronger firewall protection and powerful features, check out [BBQ Pro &raquo;](https://plugin-planet.com/bbq-pro/)
 
 
+**2026/08/09**
+
+* Updates plugin settings page
+* Tests on WordPress 7.1
+
 **2026/04/19**
 
-* Fixes bug with reset options
 * Updates plugin settings page
 * Improves readme.txt documentation
 * Tests on WordPress 7.0
